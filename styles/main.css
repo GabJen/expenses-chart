@@ -51,7 +51,7 @@ body {
     font-weight: 700;
 }
 
-.number.total {
+.balance .number {
     font-size: 1.6em;
     margin-top: .2em;
 }
