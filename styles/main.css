@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 :root{
     /*PRIMARY COLORS*/
-    -soft-red: hsl(10, 79%, 65%);
-    -cyan: hsl(186, 34%, 60%);
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
 
     /* NEUTRAL COLORS */
-    -dark-brown: hsl(25, 47%, 15%);
-    -medium-brown: hsl(28, 10%, 53%);
-    -cream: hsl(27, 66%, 92%);
-    -pale-orange: hsl(33, 100%, 98%);
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --pale-orange: hsl(33, 100%, 98%);
 }
 
 * {
@@ -20,4 +20,83 @@
 body {
     font-family: "DM Sans" ,sans-serif;
     font-size: 18px;
+    background-color: var(--cream);
+
+    margin-top: 4em;
+    margin-left: 1.5em; margin-right: 1.5em;
+}
+
+.container {
+    padding: 1.4em;
+    border-radius: 1em;
+}
+
+#balance {
+    background-color: var(--soft-red);
+    color: var(--cream);
+    margin-bottom: 1.5em;
+    font-size: 1em;
+}
+
+#main-panel {
+    background-color: var(--pale-orange);
+    color: var(--medium-brown);
+}
+
+.number {
+    display: block;
+    font-weight: 700;
+}
+
+.number.total {
+    font-size: 1.6em;
+    margin-top: .2em;
+}
+
+.title {
+    color: var(--dark-brown);
+    margin-bottom: 1.5em;
+}
+
+#chart {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--cream);
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.d-week {
+    list-style: none;
+    font-size: .8em;
+    padding: 5px;
+}
+
+#total-month {
+    display: flex;
+    justify-content: space-between;
+}
+
+#total-month .number {
+    color: var(--dark-brown);
+}
+
+#currmonth .number {
+    font-size: 2.4em;
+}
+
+#lastmonth {
+    align-self: end;
+}
+
+#lastmonth .number {
+    text-align: right;
+}
+
+.attribution {
+    color: var(--medium-brown);
+    font-size: .8em;
+
+    text-align: center;
+    margin-top: 4em;
 }
