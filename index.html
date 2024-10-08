@@ -1,43 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Expenses chart component</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" type="text/css" href="./styles/main.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+	<title>Frontend Mentor | Expenses chart component</title>
+
 </head>
+
 <body>
+	<main>
+		<div class="container">
+			My balance
+			<span class="number total">$921.48</span>
+		</div>
 
-  My balance
-  $921.48
+		<div class="container">
+			<h1 class="title">Spending - Last 7 days</h1>
+			
+			<ul id="chart">
+				<li class="d-week" id="mon">
+					<div class="bar"></div>
+					mon
+				</li> 
+				<li class="d-week" id="tue">
+					<div class="bar"></div>
+					tue
+				</li> 
+				<li class="d-week" id="wed">
+					<div class="bar"></div>
+					wed
+				</li> 
+				<li class="d-week" id="thu">
+					<div class="bar"></div>
+					thu
+				</li> 
+				<li class="d-week" id="fri">
+					<div class="bar"></div>
+					fri
+				</li> 
+				<li class="d-week" id="sat">
+					<div class="bar"></div>
+					sat
+				</li> 
+				<li class="d-week" id="sun">
+					<div class="bar"></div>
+					sun
+				</li> 
+			</ul>
 
-  Spending - Last 7 days
+			<div class="container" id="total-month">
+				<div id="currmonth">
+					Total this month
+					<span class="number">$478.33</span> 
+				</div>
+				
+				<div id="lastmonth">
+					<span class="number">+2.4%</span>
+					from last month
+				</div>
+			</div>
+			
+			
+		</div>
+	</main>
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+		Coded by <a href="#">Your Name Here</a>.
+	</div>
 </body>
+
 </html>
