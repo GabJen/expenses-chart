@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root{
+    /*PRIMARY COLORS*/
+    -soft-red: hsl(10, 79%, 65%);
+    -cyan: hsl(186, 34%, 60%);
+
+    /* NEUTRAL COLORS */
+    -dark-brown: hsl(25, 47%, 15%);
+    -medium-brown: hsl(28, 10%, 53%);
+    -cream: hsl(27, 66%, 92%);
+    -pale-orange: hsl(33, 100%, 98%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans" ,sans-serif;
+    font-size: 18px;
+}
