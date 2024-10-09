@@ -103,3 +103,12 @@ body {
     text-align: center;
     margin-top: 4em;
 }
+
+.attribution a {
+    color: var(--soft-red);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
