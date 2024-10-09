@@ -64,6 +64,7 @@ body {
 #chart {
     display: flex;
     justify-content: space-between;
+    align-items: end;
     border-bottom: 1px solid var(--cream);
     padding-bottom: 1.5em;
     margin-bottom: 1.5em;
@@ -73,6 +74,7 @@ body {
     list-style: none;
     font-size: .8em;
     padding: 5px;
+    text-align: center;
 }
 
 #total-month {
@@ -111,4 +113,12 @@ body {
 
 .attribution a:hover {
     text-decoration: underline;
+}
+
+.bar {
+    border-radius: .3em;
+    background-color: var(--soft-red);
+    width: 2.8em;
+    height: 3.6em;
+    margin-bottom: 1em;
 }
