@@ -119,6 +119,9 @@ body {
     border-radius: .3em;
     background-color: var(--soft-red);
     width: 2.8em;
-    height: 3.6em;
     margin-bottom: 1em;
+}
+
+.bar.today {
+    background-color: var(--cyan);
 }
