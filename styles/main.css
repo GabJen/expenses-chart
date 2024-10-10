@@ -19,22 +19,22 @@
 
 body {
     font-family: "DM Sans" ,sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     background-color: var(--cream);
 
-    margin-top: 4em;
-    margin-left: 1.5em; margin-right: 1.5em;
+    margin-top: 3.5em;
+    margin-left: 1em; margin-right: 1em;
 }
 
 .container {
-    padding: 1.4em;
-    border-radius: 1em;
+    padding: 1.3em;
+    border-radius: .6em;
 }
 
 #balance {
     background-color: var(--soft-red);
     color: var(--cream);
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     font-size: 1em;
 
     display: flex;
@@ -52,13 +52,14 @@ body {
 }
 
 .balance .number {
-    font-size: 1.6em;
+    font-size: 1.5em;
     margin-top: .2em;
 }
 
 .title {
     color: var(--dark-brown);
     margin-bottom: 1.5em;
+    font-size: 1.5em
 }
 
 #chart {
@@ -73,7 +74,6 @@ body {
 .d-week {
     list-style: none;
     font-size: .8em;
-    padding: 5px;
     text-align: center;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 #currmonth .number {
-    font-size: 2.4em;
+    font-size: 2em;
 }
 
 #lastmonth {
@@ -100,10 +100,10 @@ body {
 
 .attribution {
     color: var(--dark-brown);
-    font-size: .8em;
+    font-size: .7em;
 
     text-align: center;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 .attribution a {
