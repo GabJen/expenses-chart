@@ -22,8 +22,12 @@ body {
     font-size: 16px;
     background-color: var(--cream);
 
-    margin-top: 3.5em;
+    height: 100vh;
     margin-left: 1em; margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -124,4 +128,27 @@ body {
 
 .bar.today {
     background-color: var(--cyan);
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        padding: 1.5em;
+        border-radius: .9em;
+    }
+
+    #main-panel {
+        padding: auto 2em 2em;
+    }
+
+    .d-week {
+        padding: 0 .5em;
+    }
+
+    #lastmonth {
+        padding-bottom: .2em;
+    }
 }
