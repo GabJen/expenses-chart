@@ -35,9 +35,15 @@ fetch(data)
                 bar.classList.add("today");
             }
 
-            chartItem.prepend(bar);
+            let hint = document.createElement("span");
+            hint.innerText = `$${value.amount}`;
 
-        }
+            hint.classList.add("hint");
+
+            
+            chartItem.prepend(bar);
+            chartItem.prepend(hint);
+        }    
     })
     .catch((err) => console.log(err))
 
