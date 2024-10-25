@@ -12,7 +12,7 @@ fetch(data)
 
             let chartItem = createListItems(day);
             let bar = createBars(amount, item);
-            let tooltip = createToolbar(amount);
+            let tooltip = createTooltip(amount);
             
             chartItem.prepend(bar);
             chartItem.prepend(tooltip);
