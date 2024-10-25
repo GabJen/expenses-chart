@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('./active-states.css');
 :root{
     /*PRIMARY COLORS*/
     --soft-red: hsl(10, 79%, 65%);
@@ -133,25 +134,6 @@ body {
 
 .bar.today {
     background-color: var(--cyan);
-}
-
-.tooltip {
-    visibility: hidden;
-    border-radius: .3em;
-    background-color: var(--dark-brown);
-    color: var(--pale-orange);
-    padding: .5em;
-    position: relative;
-    bottom: .5em;
-}
-
-.d-week:hover .bar {
-    opacity: 60%;
-    cursor: pointer;
-}
-
-.d-week:hover .tooltip {
-    visibility: visible;
 }
 
 @media screen and (min-width: 500px) {

@@ -1,0 +1,18 @@
+.tooltip {
+    visibility: hidden;
+    border-radius: .3em;
+    background-color: var(--dark-brown);
+    color: var(--pale-orange);
+    padding: .5em;
+    position: relative;
+    bottom: .5em;
+}
+
+.d-week:hover .bar {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.d-week:hover .tooltip {
+    visibility: visible;
+}
