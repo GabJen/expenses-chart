@@ -12,10 +12,10 @@ fetch(data)
 
             let chartItem = createListItems(day);
             let bar = createBars(amount, item);
-            let hint = createHint(amount);
+            let tooltip = createToolbar(amount);
             
             chartItem.prepend(bar);
-            chartItem.prepend(hint);
+            chartItem.prepend(tooltip);
         }    
     })
     .catch((err) => console.log(err))
@@ -57,11 +57,11 @@ function createBars(amount, dayIndex) {
     return bar;
 }
 
-function createHint(amount) {
-    let hint = document.createElement("span");
+function createTooltip(amount) {
+    let tooltip = document.createElement("span");
 
-    hint.innerText = `$${amount}`;
-    hint.classList.add("hint");
+    tooltip.innerText = `$${amount}`;
+    tooltip.classList.add("tooltip");
 
-    return hint;
+    return tooltip;
 }

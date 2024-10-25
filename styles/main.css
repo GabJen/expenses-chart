@@ -135,7 +135,7 @@ body {
     background-color: var(--cyan);
 }
 
-.hint {
+.tooltip {
     visibility: hidden;
     border-radius: .3em;
     background-color: var(--dark-brown);
@@ -150,7 +150,7 @@ body {
     cursor: pointer;
 }
 
-.d-week:hover .hint {
+.d-week:hover .tooltip {
     visibility: visible;
 }
 
