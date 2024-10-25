@@ -46,7 +46,7 @@ body {
     justify-content: space-between;
 }
 
-#main-panel {
+#dashboard {
     background-color: var(--pale-orange);
     color: var(--medium-brown);
 }
@@ -56,12 +56,12 @@ body {
     font-weight: 700;
 }
 
-.balance .number {
+#balance .number {
     font-size: 1.5em;
     margin-top: .2em;
 }
 
-.title {
+#dashboard .title {
     color: var(--dark-brown);
     margin-bottom: 1.5em;
     font-size: 1.5em
@@ -87,24 +87,24 @@ body {
     margin: .3em
 }
 
-#total-month {
+#perf-report {
     display: flex;
     justify-content: space-between;
 }
 
-#total-month .number {
+#perf-report .number {
     color: var(--dark-brown);
 }
 
-#currmonth .number {
+#total-month .number {
     font-size: 2em;
 }
 
-#lastmonth {
+#last-month {
     align-self: end;
 }
 
-#lastmonth .number {
+#last-month .number {
     text-align: right;
 }
 
@@ -146,7 +146,7 @@ body {
         border-radius: .9em;
     }
 
-    #main-panel {
+    #dashboard {
         padding: auto 2em 2em;
     }
 
@@ -154,7 +154,7 @@ body {
         padding: 0 .5em;
     }
 
-    #lastmonth {
+    #last-month {
         padding-bottom: .2em;
     }
 }
